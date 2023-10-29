@@ -31,6 +31,9 @@ namespace Newspoint_Software_System_Information
             PublicFunctions.WinFormFunctionStyle.FormStartPositions(me, "center screen");
             #endregion
             #region"LoadInfoSystem"
+            string OSBuild = SW.infoSF.GetWindowsBuildNumber();
+            string OSVer = SW.infoSF.GetWindowsEdition();
+            OSName.Text = OSBuild;
             #endregion
             #region"LoadMainInfo"
             #endregion

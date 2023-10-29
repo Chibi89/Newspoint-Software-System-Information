@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            this.label1 = new System.Windows.Forms.Label();
+            this.OSName = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
             this.vScrollBar1 = new System.Windows.Forms.VScrollBar();
             this.notifyIcon1 = new System.Windows.Forms.NotifyIcon(this.components);
@@ -37,17 +37,17 @@
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
-            // label1
+            // OSName
             // 
-            this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.Black;
-            this.label1.Location = new System.Drawing.Point(96, 17);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(46, 17);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "label1";
+            this.OSName.AutoSize = true;
+            this.OSName.BackColor = System.Drawing.Color.Transparent;
+            this.OSName.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.OSName.ForeColor = System.Drawing.Color.Black;
+            this.OSName.Location = new System.Drawing.Point(96, 17);
+            this.OSName.Name = "OSName";
+            this.OSName.Size = new System.Drawing.Size(46, 17);
+            this.OSName.TabIndex = 0;
+            this.OSName.Text = "label1";
             // 
             // panel1
             // 
@@ -90,7 +90,7 @@
             this.ClientSize = new System.Drawing.Size(489, 682);
             this.Controls.Add(this.linkLabel1);
             this.Controls.Add(this.panel1);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.OSName);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -104,7 +104,7 @@
 
         #endregion
 
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label OSName;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.VScrollBar vScrollBar1;
         private System.Windows.Forms.NotifyIcon notifyIcon1;
